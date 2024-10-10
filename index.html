@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>ajedrez</title>
+        <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+      </head>
+      <body>
+        <a-scene>
+          <a-plane src="imagenes/275381.png" position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#f0000" ></a-plane>
+          <a-sky color="#fe8484"></a-sky>
+          <a-assets>
+            <a-asset-item id="cityModel" src="models/peon_Blanca.glb"></a-asset-item>
+            <a-asset-item id="peon2" src="models/peon_Negras.glb"></a-asset-item>
+            <a-asset-item id="torre1" src="models/torre_Blanca.glb"></a-asset-item>
+            <a-asset-item id="caballo1" src="models/caballo_Blanca.glb"></a-asset-item>
+            <a-asset-item id="alfil1" src="models/alfil_Blanca.glb"></a-asset-item>
+            <a-asset-item id="reina1" src="models/reina_Blanca.glb"></a-asset-item>
+            <a-asset-item id="rey1" src="models/rey_Blanca (1).glb"></a-asset-item>
+
+            <a-asset-item id="torre2" src="models/torre_Negras.glb"></a-asset-item>
+            <a-asset-item id="caballo2" src="models/caballo_Negras.glb"></a-asset-item>
+            <a-asset-item id="alfil2" src="models/alfil_Negras.glb"></a-asset-item>
+            <a-asset-item id="reina2" src="models/reina_Negras.glb"></a-asset-item>
+            <a-asset-item id="rey2" src="models/rey_Negras.glb"></a-asset-item>
+          </a-assets>
+          <a-entity gltf-model="models/peon_Blanca.glb" modify-materials="" position="-1.50618 0 -2.90936" scale="0.30874 0.30874 -0.29088"></a-entity>
+          <a-entity gltf-model="models/peon_Blanca.glb" modify-materials="" position="-1.0627 0 -2.909" scale="0.309 0.309 -0.291"></a-entity>
+          <a-entity gltf-model="models/peon_Blanca.glb" modify-materials="" position="-0.65422 0 -2.90936" scale="0.30874 0.30874 -0.29088"></a-entity>
+          <a-entity gltf-model="models/peon_Blanca.glb" modify-materials="" position="-0.21696 0 -2.90936" scale="0.30874 0.30874 -0.29088"></a-entity>
+          <a-entity gltf-model="models/peon_Blanca.glb" modify-materials="" position="0.17429 0 -2.90936" scale="0.30874 0.30874 -0.29088"></a-entity>
+          <a-entity gltf-model="models/peon_Blanca.glb" modify-materials="" position="0.58399 0 -2.90936" scale="0.30874 0.30874 -0.29088"></a-entity>
+          <a-entity gltf-model="models/peon_Blanca.glb" modify-materials="" position="1.01493 0.00616 -2.91021" scale="0.30874 0.30874 -0.29088"></a-entity>
+          <a-entity gltf-model="models/peon_Blanca.glb" modify-materials="" position="1.40374 0 -2.90936" scale="0.30874 0.30874 -0.29088"></a-entity>
+
+          <a-entity gltf-model="models/peon_Negras.glb" position="-1.50804 0 -5.06887" scale="0.2954 0.31903 0.2954"></a-entity>
+          <a-entity gltf-model="models/peon_Negras.glb" position="-1.06476 0 -5.069" scale="0.295 0.319 0.295"></a-entity>
+          <a-entity gltf-model="models/peon_Negras.glb" position="-0.6617 0 -5.06887" scale="0.2954 0.31903 0.2954"></a-entity>
+          <a-entity gltf-model="models/peon_Negras.glb" position="-0.22241 0 -5.06887" scale="0.2954 0.31903 0.2954"></a-entity>
+          <a-entity gltf-model="models/peon_Negras.glb" position="0.22091 0 -5.06887" scale="0.2954 0.31903 0.2954"></a-entity>
+          <a-entity gltf-model="models/peon_Negras.glb" position="0.62694 0 -5.06887" scale="0.2954 0.31903 0.2954"></a-entity>
+          <a-entity gltf-model="models/peon_Negras.glb" position="1.05951 0 -5.06887" scale="0.2954 0.31903 0.2954"></a-entity>
+          <a-entity gltf-model="models/peon_Negras.glb" position="1.49208 0 -5.06887" scale="0.2954 0.31903 0.2954"></a-entity>
+
+          <a-entity gltf-model="models/torre_Blanca.glb" scale="0.30443 0.30443 0.30443" position="-1.48721 0 -2.50303"></a-entity>
+          <a-entity gltf-model="models/torre_Blanca.glb" scale="0.304 0.304 0.304" position="1.48233 0 -2.503"></a-entity>
+
+          <a-entity gltf-model="models/caballo_Blanca.glb" position="-1.06006 0 -2.46118" scale="0.36165 0.36165 0.36165"></a-entity>
+          <a-entity gltf-model="models/caballo_Blanca.glb" position="1.05025 0 -2.461" scale="0.362 0.362 0.362"></a-entity>
+
+          <a-entity gltf-model="models/alfil_Blanca.glb" position="-0.63903 0 -2.49358" scale="0.35415 0.35415 0.35415"></a-entity>
+          <a-entity gltf-model="models/alfil_Blanca.glb" position="0.62575 0 -2.494" scale="0.354 0.354 0.354"></a-entity>
+
+          <a-entity gltf-model="models/reina_Blanca.glb" position="-0.20899 0 -2.50271" scale="0.34398 0.36015 0.36015"></a-entity>
+
+          <a-entity gltf-model="models/rey_Blanca (1).glb" position="0.21475 0 -2.50197" scale="0.34541 0.34541 0.4102"></a-entity>
+
+          <a-entity gltf-model="models/torre_Negras.glb" scale="0.304 0.304 0.304" position="1.48233 0 -5.51098"></a-entity>
+          <a-entity gltf-model="models/torre_Negras.glb" scale="0.30443 0.30443 0.30443" position="-1.48721 0 -5.50003"></a-entity>
+
+          <a-entity gltf-model="models/caballo_Negras.glb" position="1.05025 0 -5.49446" scale="0.362 0.362 0.362"></a-entity>
+          <a-entity gltf-model="models/caballo_Negras.glb" position="-1.06 0 -5.49894" scale="0.362 0.362 0.362"></a-entity>
+
+          <a-entity gltf-model="models/alfil_Negras.glb" position="0.62575 0 -5.51996" scale="0.354 0.354 0.354"></a-entity>
+          <a-entity gltf-model="models/alfil_Negras.glb" position="-0.639 0 -5.51233" scale="0.354 0.354 0.354"></a-entity>
+
+          <a-entity gltf-model="models/reina_Negras.glb" position="-0.209 0 -5.48655" scale="0.344 0.36 0.36"></a-entity>
+
+          <a-entity gltf-model="models/rey_Negras.glb" position="0.215 0 -5.49264" scale="0.345 0.345 0.41"></a-entity>
+        </a-scene>
+      </body>
+</html>
